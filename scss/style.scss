@@ -1,0 +1,30 @@
+$themeColor: #f4ab3e;
+$secondColor: #f9eab4;
+$thirdColor: #ffffff;
+$fourthColor: #d3d0d0;
+$fifthColor: #957443;
+$sixthColor: #231704;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: $sixthColor;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+//   position: relative;
+  background-color: $secondColor;
+}
+.title{
+    color: $sixthColor;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

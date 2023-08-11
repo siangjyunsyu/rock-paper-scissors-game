@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  color: #231704;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f9eab4;
+}
+
+.title {
+  color: #231704;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
