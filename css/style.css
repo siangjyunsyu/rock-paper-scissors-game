@@ -12,13 +12,22 @@ body {
 }
 
 body {
-  background-color: #f9eab4;
+  background-color: #ffffff;
 }
 
-.title {
+.container {
+  margin: 10px;
+}
+.container .gameBox {
+  width: 80px;
+  height: 15px;
+  color: #f4ab3e;
+}
+.container .title {
   color: #231704;
   width: 300px;
   display: flex;
   justify-content: center;
   text-align: center;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

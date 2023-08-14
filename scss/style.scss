@@ -19,12 +19,21 @@ body {
 }
 body {
 //   position: relative;
-  background-color: $secondColor;
+  background-color: $thirdColor;
 }
-.title{
+.container{
+  margin: 10px;
+  .gameBox{
+    width: 80px;
+    height: 15px;
+    color: $themeColor;
+  }
+  .title{
     color: $sixthColor;
     width: 300px;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin: auto;
+  }
 }
