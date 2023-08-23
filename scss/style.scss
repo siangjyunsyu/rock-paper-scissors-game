@@ -18,22 +18,51 @@ body {
   height: 100%;
 }
 body {
-//   position: relative;
   background-color: $thirdColor;
 }
-.container{
-  margin: 10px;
-  .gameBox{
-    width: 80px;
-    height: 15px;
-    color: $themeColor;
-  }
-  .title{
+.container {
+  margin: auto;
+  padding: 0px;
+  .title {
     color: $sixthColor;
     width: 300px;
     display: flex;
     justify-content: center;
     text-align: center;
     margin: auto;
+    padding-top: 20px;
+  }
+  main {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+    .gameBox {
+      width: 300px;
+      margin: 15px;
+      .gameImg1,
+      .gameImg2,
+      .gameImg3 {
+        height: 80px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+    .btnStart {
+      margin: 10px;
+      background-color: $secondColor;      
+      width: 160px;
+      height: 50px;
+      .titleText {
+        color: $sixthColor;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+      }
+    }
   }
 }
