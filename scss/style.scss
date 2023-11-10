@@ -23,14 +23,17 @@ body {
 .container {
   margin: auto;
   padding: 0px;
-  .title {
-    color: $sixthColor;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    padding-top: 20px;
+  header {
+    margin-top: auto;
+    .title {
+      color: $sixthColor;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+      padding-top: 20px;
+    }
   }
   main {
     height: auto;

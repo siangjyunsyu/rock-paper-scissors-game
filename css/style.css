@@ -19,7 +19,13 @@ body {
   margin: auto;
   padding: 0px;
 }
-.container .title {
+.container header {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.container header .title {
   color: #231704;
   width: 300px;
   display: flex;
